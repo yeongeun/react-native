@@ -6,6 +6,6 @@
 
  import React, { Component } from 'react';
  import { AppRegistry, Text, View, Navigator } from 'react-native';
- import Scene from './src/navigation';
+ import Weather from './src/views/Weather';
 
- AppRegistry.registerComponent('Hello', () => Scene);
+ AppRegistry.registerComponent('Hello', () => Weather);
